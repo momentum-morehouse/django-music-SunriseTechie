@@ -51,6 +51,8 @@ INSTALLED_APPS = [
 
     # Project-specific
     'users',
+    'music_treasure_trove',
+     
 ]
 
 MIDDLEWARE = [
