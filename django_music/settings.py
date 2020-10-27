@@ -45,8 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'music_treasure_trove'
-    
+      
     # Third-party
     'debug_toolbar',
     'django_extensions',
