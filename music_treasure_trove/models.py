@@ -11,7 +11,7 @@ class Musician(models.Model):
 
 class Album(models.Model):
     artist = models.ForeignKey(Musician, on_delete=models.CASCADE) 
-    name = models.CharField(max_lenth=100) 
+    title = models.CharField(max_lenth=100) 
     songs = models.CharField(max_lenth=500)
     year = models.DateField()
     filetype = models.CharField(max_lenth=50)
@@ -21,7 +21,8 @@ class Album(models.Model):
     num_stars = models.IntegerField()
     # coverart = 
 
-    
+    def __str__(self):
+        return self.
 
     class Meta:
         verbose_name = _("")
